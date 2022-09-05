@@ -1,0 +1,9 @@
+a{
+    color: #000000 ;
+    
+}
+
+a:active, a:hover, a:focus{
+  color:#2c87f0;
+   
+}
