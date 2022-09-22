@@ -1,16 +1,33 @@
-<nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#" ><h1>OurApp</h1></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<nav>
+
+  <div class="nav-left">
+     <div>
+      <ul>
+        <li><img src="assets/images/oalogo.jpg" alt="file not found" class="logo" ></li>
+        <li><h2>OurApp</h2></li>
+      </ul> 
+     </div>
+
+     <div>
+      <ul>
+        <li><a href=""><h4>Home</h4></a></li>
+        <li><a href=""><h4>Chat</h4></a></li>
+        <li><a href=""><h4>Notifications</h4></a></li>
+      </ul>
+
+     </div>
   </div>
-    <div class="collapse navbar-collapse navbar-btn pull-right" id="navbarSupportedContent">
-     <form class="d-flex"  >
-        <button class="btn btn-outline-success me-2 btn-nav " > <a routerLinkActive="active" [routerLink]="'register'" > Register </a></button>
-        <button class="btn btn-outline-success btn-nav me-2"  > <a routerLinkActive="active" [routerLink]="'login'"> Login </a> </button>
-      </form>
-    </div> 
+
+  <div class="nav-right">
+    <div class="search-box">
+      <img src="assets/images/search.jpg"  alt="">
+       <input type="text" placeholder="Search">
+       
+    </div>
+    
+  </div>
+
 </nav>
-<app-home></app-home>
+
+
 <router-outlet></router-outlet>
