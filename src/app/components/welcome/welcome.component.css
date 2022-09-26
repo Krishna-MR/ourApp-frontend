@@ -1,7 +1,43 @@
+
+
+
 img{
   height: 300px;
   width: 300px;
   object-fit: cover;
   border-radius: 50%;
   align-items: center;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+ 
+}
+
+p{
+  color: rgb(6,84,156);
+  font-size: 60px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+.register-login ul{
+  justify-content: center;
+  display: flex;
+}
+
+.register-login ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 80px 60px;
+  
+}
+
+.btn{
+  background-color: rgb(6,84,156);
+  color:white;
+  width: 90px;
 }
