@@ -68,3 +68,11 @@
     border: 0;
   }
   
+  .nav-user-icon img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+  }
